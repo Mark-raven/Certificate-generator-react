@@ -22,15 +22,15 @@ const templates = {
       text: [
         {
           title: 'Field 1',
-          x: 289,
-          y: 200,
-          size: 37
+          x: 1382,
+          y: 1101,
+          size: 85
         },
         {
           title: 'Field 2',
-          x: 289,
-          y: 440,
-          size: 18
+          x: 1041,
+          y: 2000,
+          size: 51
         },
         {
           title: 'Field 3',
