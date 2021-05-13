@@ -22,7 +22,7 @@ const templates = {
       text: [
         {
           title: 'Field 1',
-          x: 1382,
+          x: 1357,
           y: 1101,
           size: 85
         },

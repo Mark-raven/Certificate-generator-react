@@ -29,9 +29,11 @@ async function updateCanvas(certificates) {
       const { x, y, size } = drawProperties;
       console.log(drawProperties);
       const { title } = certificate[i];
+      let metrics = ctx.measureText(title);
       ctx.fillStyle = "#fff";
       ctx.font = `bold ${size}pt Montserrat`;
-      ctx.fillText(title, x, y);
+      ctx.fillText(title, (image.width - metrics.width - 250) / 2 , y );
+      // ctx.fillText(title, x, y);
     });
     const buffer = canvas.toBuffer("image/png");
     fs.writeFileSync(`public/images/imi${index}.png`, buffer);
