@@ -28,7 +28,7 @@ const templates = {
         },
         {
           title: 'Field 2',
-          x: 1041,
+          x: 1208,
           y: 2000,
           size: 51
         },
